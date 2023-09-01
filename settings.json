@@ -1,0 +1,66 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "redhat.telemetry.enabled": true,
+    "editor.fontFamily": "'Mononoki Nerd Font', 'Montserrat' , Consolas, 'Courier New', monospace",
+    "editor.fontSize": 16,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.editor.untitled.hint": "hidden",
+    "window.zoomLevel": -1,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "workbench.colorTheme": "Bluloco Dark Italic",
+    "editor.tokenColorCustomizations": {
+        "[Bluloco Dark Italic]": {
+            "functions": "#f9fd00",
+            "textMateRules": [
+                {
+                    "scope": [
+                        "support.class",
+                        "entity.name.class",
+                        "entity.name.type.class",
+                        "meta.class.instance",
+                        "meta.class.inheritance",
+                        "entity.other.inherited-class",
+                        "entity.name.type",
+                        "variable.other.constant.elixir",
+                        "storage.type.haskell",
+                        "support.type.graphql",
+                        "support.type.enum.graphql",
+                    ],
+                    "settings": {
+                        "foreground": "#3fc56b",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": [
+                        "punctuation.definition.block.js.jsx",
+                        "meta.class.js.jsx",
+                        "source.js.jsx"
+                    ],
+                    "settings": {
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": [
+                        "storage.modifier.async.js",
+                        "keyword.control.flow.js",
+                        "keyword.control.import.js",
+                        "keyword.control.from.js"
+                    ],
+                    "settings": {
+                        "foreground": "#FF78F8",
+                        "fontStyle": "italic"
+                    }
+                }
+            ]
+        }
+    }
+}
