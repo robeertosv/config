@@ -5,7 +5,7 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
     "redhat.telemetry.enabled": true,
     "editor.fontFamily": "'Mononoki Nerd Font', 'Montserrat' , Consolas, 'Courier New', monospace",
-    "editor.fontSize": 16,
+    "editor.fontSize": 15,
     "[python]": {
         "editor.formatOnType": true
     },
